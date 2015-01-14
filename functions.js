@@ -4,7 +4,7 @@
  * @return {string} the number as a string
  */
 
- function numberToString (n) {
+ function numberToString (n){
   return n.toString();
  }
 
@@ -14,12 +14,17 @@
  * @param {number} n
  * @return {number}
  */
+ function increase(n){
+  return n + 1;
+}
+
 
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
+
 
 /**
  * Adds two numbers.
